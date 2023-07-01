@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="https://pbs.twimg.com/media/Fp6HcA0WwAAdF6J.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="./images/Logo.png" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="./images/search.png" alt=""></button>
+            <img class="voicepng" src="./images/voice-search.png" alt="imgage">
+        </div>
+        <div class="user-options">
+            <img src="./images/Create.png" class="icon" id="creat" alt="">
+            <img src="./images/more.png" class="icon" alt="">
+            <img src="./images/notification.png" class="icon" alt="">
+            <div class="user-dp">
+                <img src="./images/sham.JPG" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="./images/home.png" alt="">Home</a>
+        <a href="#" class="links"><img src="./images/explore.png" alt="">Explore</a>
+        <a href="#" class="links"><img src="./images/subscriprion.png" alt="">Subscription</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="./images/library.png" alt="">Library</a>
+        <a href="#" class="links"><img src="./images/history.png" alt="">History</a>
+        <a href="#" class="links"><img src="images/playlist.png" alt="">Your Video</a>
+        <a href="#" class="links"><img src="https://cdn.iconscout.com/icon/free/png-256/free-watch-later-1666329-1415833.png" alt="">Watch later</a>
+        <a href="#" class="links"><img src="images/like.png" alt="">Like video</a>
+        <a href="#" class="links"><img src="images/show-more.png" alt="">Show more</a>
+    </div>
+
+    <!-- filters -->
+    <div class="filters">
+        <button class="filter-options active">all</button>
+       
+        <button class="filter-options">Machine learning</button>
+
+        <button class="filter-options">Python</button>
+        <button class="filter-options">Web development</button>
+        <button class="filter-options">Marvel</button>
+        <button class="filter-options">CSS</button>
+        <button class="filter-options">Artificial intelligence</button>
+        <button class="filter-options">Entertainment</button>
+        <button class="filter-options">Trending</button>
+        <button class="filter-options">Javascript</button>
+    </div>
+
+    <!-- videos -->
+    <div class="video-container">
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
